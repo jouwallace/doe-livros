@@ -1,0 +1,103 @@
+header{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 10vh;
+// border: solid black;
+background: linear-gradient(to right, #001B2f, #005695); 
+color: whitesmoke;
+
+    //  para mobile
+     @media(max-width:500px){
+      flex-direction: column;
+      align-items: space-evenly;
+      justify-content: space-around;
+     }
+
+     section{
+         // border: solid 2px yellow;
+        display: flex;
+        align-items: center;
+        width: 25vw;
+        justify-content: space-evenly;
+        font-size: 22px;
+        margin-right: 10rem;
+
+        @media(max-width:1300px){
+          font-size: 16px;
+          width: 20vw;
+        }   
+
+          @media(max-width:500px){
+            width: 60vw;
+            margin-right: -10px;
+            font-size: 17px;
+          }
+        }
+      img{
+          width: 4rem;
+          height: 4rem;
+
+              @media(max-width: 1300px){
+                width: 3rem;
+                height: 3rem;
+              }
+                @media(max-width:500px){
+                  width:2rem;
+                  height: 2rem;
+                }
+      }
+}
+header ul{
+display: flex;
+justify-content: space-between;
+width: 30vw;
+font-size: 20px;
+
+        @media(max-width:1300px){
+          font-size: 17px;
+          width: 24vw;
+        }
+          @media(max-width:500px){
+            width: 80vw;
+            align-items: flex-end;
+          }
+
+        a{
+        color: white
+        }
+}
+.procurar{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 2px white;
+    border-radius: 15px;
+    width: 13vw;
+
+    // medidas mobile
+      @media(max-width:500px){
+       display: none;
+      }
+        @media(max-width:1300px){
+          width: 12vw;
+        }
+
+        img{
+          width: 1.5rem;
+          height: 1.5rem;
+          @media(max-width:1300px){
+            width: 1rem;
+            height: 1rem;
+        }}
+        input{
+          background-color: transparent;
+          outline: none;
+          border:none;
+          color: white;
+        } 
+        
+}
+
+
