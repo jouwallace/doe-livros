@@ -6,8 +6,8 @@
 // caixa responsavel para ajustar os livros doados
 .boxLivros{
     display: flex;
-    width: 23vw;
-    justify-content: end;
+    // width: 23vw;
+    justify-content: space-evenly;
 
       // para mobile
       @media(max-width:500px){
